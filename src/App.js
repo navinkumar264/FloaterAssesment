@@ -52,7 +52,7 @@ function App() {
       {/* <TextField id="outlined-basic" label="Outlined" variant="outlined" value={emi}/> */}
       {flag === "false" ? <TextField id="outlined-basic" label="Total Payable Intrest" variant="outlined" value={totalpay} /> : ""}
       {/* <TextField id="outlined-basic" label="Outlined" variant="outlined" value={emi}/> */}<br /><br />
-      {flag === "false" ? <TextField id="outlined-basic" label="Intrest Payable" variant="outlined" value={intrest} /> : "Not Logged IN"}
+      {flag === "false" ? <TextField id="outlined-basic" label="Intrest Payable" variant="outlined" value={intrest} /> : ""}
       {/* <TextField id="outlined-basic" label="Outlined" variant="outlined" value={emi}/> */}
     </div>
   );
